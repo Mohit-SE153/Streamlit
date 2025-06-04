@@ -126,8 +126,6 @@ st.markdown(
 
 st.title("📊 Chat with the Data")
 st.write("Ask questions about your loaded data using natural English language.")
-st.info(
-    "This application uses the Gemini API to understand your natural language queries and generate responses. An internet connection is required.")
 
 # Initialize session state for DataFrame if not already present
 if 'df' not in st.session_state:
